@@ -1,0 +1,12 @@
+name: German Web Tier 03
+description: ''
+tags:
+- German
+- Group Tier
+conditions:
+- name: German Web Tier 03
+  type: release_group
+  required: false
+  negate: false
+  pattern: German Web Tier 03
+tests: []

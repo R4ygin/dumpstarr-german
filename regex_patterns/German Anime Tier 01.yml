@@ -1,0 +1,8 @@
+name: German Anime Tier 01
+pattern: (?i)(?:^\[|(?<=-)|(?<=\[))(?:ABJ|ANiMEHD|DRiFTKiNG|iFPD|LiEFERDiENST|ONiGiRi|snk|STARS|TvR|ZeroTwo)(?:\]|\b|$)
+description: ''
+tags:
+- Anime
+- Release Group
+- German
+tests: []

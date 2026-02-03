@@ -1,0 +1,33 @@
+name: German Anime Tier 02
+description: ''
+tags:
+- Anime
+- Group Tier
+- German
+conditions:
+- name: Bluray
+  negate: false
+  required: false
+  source: bluray
+  type: source
+- name: DVD
+  negate: false
+  required: false
+  source: dvd
+  type: source
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  negate: false
+  required: false
+  source: webrip
+  type: source
+- name: German Anime Tier 02
+  negate: false
+  pattern: German Anime Tier 02
+  required: true
+  type: release_group
+tests: []

@@ -1,0 +1,7 @@
+name: Not Subbed
+pattern: (?=.*(German|Ger))(?=.*(Sub|Multi(ple)?Sub))
+description: ''
+tags:
+- Release Title
+- German
+tests: []

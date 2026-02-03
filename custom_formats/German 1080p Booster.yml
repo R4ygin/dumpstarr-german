@@ -1,0 +1,24 @@
+name: German 1080p Booster
+description: ''
+tags:
+- German
+- Booster
+conditions:
+- exceptLanguage: false
+  language: german
+  name: German
+  negate: false
+  required: true
+  type: language
+- exceptLanguage: false
+  language: english
+  name: Original Language
+  negate: false
+  required: true
+  type: language
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+tests: []

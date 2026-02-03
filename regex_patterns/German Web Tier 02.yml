@@ -1,0 +1,7 @@
+name: German Web Tier 02
+pattern: (?<=^|[\s.-])(VECTOR|MULTiPLEX|SiXTYNiNE|Oergel|4SF|ABJ|paranoid06)\b
+description: ''
+tags:
+- Release Group Tier
+- German
+tests: []

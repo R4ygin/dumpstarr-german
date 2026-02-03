@@ -1,0 +1,24 @@
+name: German 2160p Booster
+description: ''
+tags:
+- German
+- Booster
+conditions:
+- name: German
+  type: language
+  required: true
+  negate: false
+  language: german
+  exceptLanguage: false
+- name: Original Language
+  type: language
+  required: true
+  negate: false
+  language: english
+  exceptLanguage: false
+- name: 2160p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 2160p
+tests: []

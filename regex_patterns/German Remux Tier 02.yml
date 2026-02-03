@@ -1,0 +1,7 @@
+name: German Remux Tier 02
+pattern: (?<=^|[\s.-])(MULTiPLEX|RHD|HDSource|iNCEPTION|FX|RocketHD)\b
+description: ''
+tags:
+- Release Group Tier
+- German
+tests: []

@@ -12,35 +12,55 @@ tags:
 - 1080p
 upgradesAllowed: true
 minCustomFormatScore: 750
-upgradeUntilScore: 10000
+upgradeUntilScore: 35000
 minScoreIncrement: 1
 custom_formats: []
 custom_formats_radarr:
-- name: WEB Tier 01
-  score: 2000
-- name: WEB Tier 02
-  score: 1950
-- name: WEB Tier 03
+- name: German DL
+  score: 6000
+- name: German DL (undefined)
+  score: 6000
+- name: German
+  score: 5000
+- name: German Bluray Tier 01
+  score: 2900
+- name: German Bluray Tier 02
+  score: 2650
+- name: German Bluray Tier 03
+  score: 2300
+- name: German Web Tier 01
+  score: 2100
+- name: German Web Tier 02
   score: 1900
-- name: WEB Tier 04
-  score: 1850
-- name: HD Bluray Tier 01
+- name: German Web Tier 03
   score: 1800
-- name: WEB Tier 05
+- name: HD Bluray Tier 01
   score: 1800
 - name: HD Bluray Tier 02
   score: 1750
+- name: German Scene
+  score: 1700
 - name: HD Bluray Tier 03
+  score: 1700
+- name: WEB Tier 01
   score: 1700
 - name: HD Bluray Tier 04
   score: 1650
+- name: WEB Tier 02
+  score: 1650
 - name: HD Bluray Tier 05
+  score: 1600
+- name: WEB Tier 03
   score: 1600
 - name: 720p Tier 01
   score: 1550
 - name: HD Bluray Tier 06
   score: 1550
+- name: WEB Tier 04
+  score: 1550
 - name: 720p Tier 02
+  score: 1500
+- name: WEB Tier 05
   score: 1500
 - name: 720p Tier 03
   score: 1450
@@ -52,12 +72,20 @@ custom_formats_radarr:
   score: 1350
 - name: Baseline Groups
   score: 1000
+- name: German 1080p Booster
+  score: 650
+- name: x265
+  score: 500
 - name: Dolby Digital +
   score: 125
 - name: Special Edition
   score: 125
 - name: Dolby Digital
   score: 115
+- name: x264
+  score: 101
+- name: 1080p
+  score: 50
 - name: 4K Remaster
   score: 25
 - name: Atmos
@@ -86,9 +114,13 @@ custom_formats_radarr:
   score: 6
 - name: 5.1 Surround
   score: 5
+- name: 720p
+  score: 5
 - name: Repack1
   score: 5
 - name: Missing Audio Channels
+  score: -50
+- name: Missing Subtitles
   score: -50
 - name: DTS-HD HRA
   score: -1000
@@ -102,8 +134,6 @@ custom_formats_radarr:
   score: -1000
 - name: 3D
   score: -10000
-- name: AV1
-  score: -10000
 - name: B&W
   score: -10000
 - name: Banned Groups
@@ -116,6 +146,12 @@ custom_formats_radarr:
   score: -10000
 - name: Extras
   score: -10000
+- name: German LQ
+  score: -10000
+- name: German LQ (Release Title)
+  score: -10000
+- name: German Microsized
+  score: -10000
 - name: HONE Missing
   score: -10000
 - name: Non Retail HDR
@@ -126,8 +162,8 @@ custom_formats_radarr:
   score: -10000
 - name: Upscaled
   score: -10000
-- name: x265 (HD)
-  score: -10000
+- name: Not German or English
+  score: -35000
 custom_formats_sonarr: []
 qualities:
 - id: 10

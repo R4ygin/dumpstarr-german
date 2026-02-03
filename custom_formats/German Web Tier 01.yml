@@ -1,0 +1,12 @@
+name: German Web Tier 01
+description: ''
+tags:
+- German
+- Group Tier
+conditions:
+- name: German Web Tier 01
+  type: release_group
+  required: false
+  negate: false
+  pattern: German Web Tier 01
+tests: []

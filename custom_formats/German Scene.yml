@@ -1,0 +1,12 @@
+name: German Scene
+description: ''
+tags:
+- German
+- Release Group
+conditions:
+- name: German Scene
+  type: release_group
+  required: false
+  negate: false
+  pattern: German Scene
+tests: []

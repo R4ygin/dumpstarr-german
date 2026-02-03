@@ -1,0 +1,36 @@
+name: Anime German DL
+description: ''
+tags:
+- Anime
+- German
+conditions:
+- name: German
+  type: language
+  required: true
+  negate: false
+  language: german
+  exceptLanguage: false
+- name: Not Single Language Only
+  negate: true
+  pattern: Anime Single Language
+  required: true
+  type: release_title
+- exceptLanguage: false
+  language: japanese
+  name: Japanese
+  negate: false
+  required: false
+  type: language
+- exceptLanguage: false
+  language: chinese
+  name: Chinese
+  negate: false
+  required: false
+  type: language
+- exceptLanguage: false
+  language: korean
+  name: Korean
+  negate: false
+  required: false
+  type: language
+tests: []

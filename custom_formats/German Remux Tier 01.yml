@@ -1,0 +1,17 @@
+name: German Remux Tier 01
+description: ''
+tags:
+- German
+- Group Tier
+conditions:
+- name: German Remux Tier 01
+  negate: false
+  pattern: German Remux Tier 01
+  required: false
+  type: release_group
+- name: Remux
+  negate: false
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+tests: []

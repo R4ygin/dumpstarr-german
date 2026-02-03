@@ -1,0 +1,22 @@
+name: German Bluray Tier 02
+description: ''
+tags:
+- German
+- Group Tier
+conditions:
+- name: German Bluray Tier 02
+  type: release_group
+  required: false
+  negate: false
+  pattern: German Bluray Tier 02
+- name: Bluray
+  type: source
+  required: true
+  negate: false
+  source: bluray
+- name: Not Remux
+  type: quality_modifier
+  required: true
+  negate: true
+  qualityModifier: remux
+tests: []

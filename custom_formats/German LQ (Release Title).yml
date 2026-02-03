@@ -1,0 +1,23 @@
+name: German LQ (Release Title)
+description: ''
+tags:
+- German
+- Release Title
+- Banned
+conditions:
+- name: TVS iTunesHD
+  type: release_title
+  required: false
+  negate: false
+  pattern: TVS iTunesHD
+- name: Jellyfin-Plex
+  type: release_title
+  required: false
+  negate: false
+  pattern: Jellyfin-Plex
+- name: Double German Tag
+  type: release_title
+  required: false
+  negate: false
+  pattern: Double German Tag
+tests: []

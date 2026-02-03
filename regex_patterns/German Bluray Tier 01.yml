@@ -1,0 +1,7 @@
+name: German Bluray Tier 01
+pattern: (?<=^|[\s.-])(ZeroTwo|BUTTERCUP|HARTZ02|XiSS|DOGPACK404|PRiNCESSDiANA|DiVA|WAREZCX|BiTCHNUGGET|TSCC|TvR|NIMA4K|TVS|PXL|CNY|WeebPinn|MAMA|WalterBishop)\b
+description: ''
+tags:
+- Release Group Tier
+- German
+tests: []

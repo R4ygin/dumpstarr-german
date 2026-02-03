@@ -1,0 +1,13 @@
+name: German LQ
+description: ''
+tags:
+- German
+- Release Group
+- Banned
+conditions:
+- name: German LQ
+  type: release_group
+  required: false
+  negate: false
+  pattern: German LQ
+tests: []

@@ -1,0 +1,7 @@
+name: German Bluray Tier 03
+pattern: (?<=^|[\s.-])(RobertDeNiro|LeetHD|RHD|HDSource|UNFIrED|iNCEPTION|FX|RDR)\b
+description: ''
+tags:
+- Release Group Tier
+- German
+tests: []

@@ -1,0 +1,7 @@
+name: German Web Tier 01
+pattern: (?<=^|[\s.-])(ZeroTwo|BUTTERCUP|HARTZ02|XiSS|DOGPACK404|PRiNCESSDiANA|DiVA|WAREZCX|BiTCHNUGGET|TSCC|TvR|NIMA4K|TVS|D02KU|PXL|QfG|CNY|WeebPinn|MEDiATHEK|RiiR|TOJ|WalterBishop|pmHD)\b
+description: ''
+tags:
+- Release Group Tier
+- German
+tests: []

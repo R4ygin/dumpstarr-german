@@ -1,0 +1,7 @@
+name: German Remux Tier 01
+pattern: (?<=^|[\s.-])(TvR|pmHD|NIMA4K|QfG|WeebPinn|MAMA)\b
+description: ''
+tags:
+- Release Group Tier
+- German
+tests: []

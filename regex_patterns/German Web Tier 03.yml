@@ -1,0 +1,7 @@
+name: German Web Tier 03
+pattern: (?<=^|[\s.-])(RobertDeNiro|BALENCiAGA|HDSource|FX|RDR)\b
+description: ''
+tags:
+- Release Group Tier
+- German
+tests: []

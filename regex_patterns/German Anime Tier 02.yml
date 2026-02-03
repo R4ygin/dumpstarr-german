@@ -1,0 +1,8 @@
+name: German Anime Tier 02
+pattern: (?i)(?:^\[|(?<=-)|(?<=\[))(?:CNY|LiEFERDiENST|SAViOURHD|SharpHD|SUBARU|WAREZCX)(?:\]|\b|$)
+description: ''
+tags:
+- Anime
+- Release Group
+- German
+tests: []

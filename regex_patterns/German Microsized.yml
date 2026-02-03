@@ -1,0 +1,8 @@
+name: German Microsized
+pattern: (?<=^|[\s.-])(FuN|w00t|GTF|JellyfinPlex|BB|266ers)\b
+description: ''
+tags:
+- Release Group
+- Banned
+- German
+tests: []

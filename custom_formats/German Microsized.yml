@@ -1,0 +1,13 @@
+name: German Microsized
+description: ''
+tags:
+- German
+- Release Group
+- Banned
+conditions:
+- name: German Microsized
+  type: release_group
+  required: false
+  negate: false
+  pattern: German Microsized
+tests: []

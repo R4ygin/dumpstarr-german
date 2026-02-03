@@ -1,0 +1,7 @@
+name: German Bluray Tier 02
+pattern: (?<=^|[\s.-])(VECTOR|MULTiPLEX|SiXTYNiNE|Oergel|ABJ|paranoid06|RocketHD)\b
+description: ''
+tags:
+- Release Group Tier
+- German
+tests: []
